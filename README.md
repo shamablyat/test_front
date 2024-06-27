@@ -1,0 +1,1 @@
+# Ihma yolg'iz keksa
