@@ -21,7 +21,7 @@ jobs:
       run: npm install
 
     - name: Run build
-      run: ip a
+      run: npm run build
 
   move_files:
     runs-on: ubuntu-latest
