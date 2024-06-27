@@ -35,6 +35,5 @@ jobs:
           key: ${{ secrets.PRIVATE_KEY }}
           port: ${{ secrets.SERVER_PORT }}
           script: |
-            mv dist /home
             ls 
             whoami 
