@@ -19,6 +19,12 @@ jobs:
 
     - name: Install dependencies
       run: npm install
+    
+    - name: Run build
+      run: npm uninstall -g @angular/cli
+    
+    - name: Run build
+      run: npm install -g @angular/cli --force
 
     - name: Run build
       run: node --max_old_space_size=4096 node_modules/@angular/cli/bin/ng build --prod
